@@ -60,8 +60,8 @@ namespace Anupama_project
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "716714615580-dfd4uapioutte82of0i6cvjps22apssp.apps.googleusercontent.com",
-                ClientSecret = "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"
+                ClientId = "",
+                ClientSecret = ""
             });
         }
     }
